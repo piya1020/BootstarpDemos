@@ -22,7 +22,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Borders and Sizing</h1>
+    <div class="bg-success p-3 w-25">Box 1</div>
+    <div class="bg-info p-3 w-50">Box 2</div>
+    <div class="bg-warning p-3 w-75">Box 3</div>
+    <div class="bg-danger p-3 w-100">Box 4</div>
+    <div class="bg-primary p-3 w-auto">Box 5</div>
+
+    <br />
+    <div style="margin: 10px; height: 300px; border: 1px">
+      <div class="bg-primary d-inline-block h-25">BOX 1</div>
+      <div class="bg-success d-inline-block h-50">BOX 2</div>
+      <div class="bg danger d-inline-block h-75">BOX 3</div>
+      <div class="bg-warning d-inline-block h-100">BOX 4</div>
+    </div>
+
+    <div class="p-3 mb-2 bg-light rounded border border-primary">BOX 1</div>
+    <div class="p-3 mb-2 bg-light border-top border-success">BOX 2</div>
+    <div class="p-3 mb-2 bg-light border-bottom border-danger">BOX 3</div>
+    <div class="m-3 p-3 mb-2 bg-light border-left border-info">BOX 4</div>
+    <div class="m-3 p-3 mb-2 bg-light border-right border-dark">BOX 5</div>
     <!--
 -->
     <!-- jquery -->
